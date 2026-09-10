@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Secure-Enterprise-Browser/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Secure-Enterprise-Browser?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Secure-Enterprise-Browser/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Secure-Enterprise-Browser?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Secure-Enterprise-Browser/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Secure-Enterprise-Browser?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Secure-Enterprise-Browser/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -65,34 +65,34 @@ Open-source solutions focus on **Remote Browser Isolation (RBI)**, **containeriz
 
 Projects are sorted in descending order by GitHub stargazer popularity:
 
-1. **[Microsoft Playwright](https://github.com/microsoft/playwright)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) 🌟  
+1. **[Microsoft Playwright](https://github.com/microsoft/playwright)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) 🌟  
    Cross-browser automation, headless rendering engine, and containerized remote browser infrastructure widely deployed for isolated web navigation and agentic security workflows.
 
-2. **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers) 🌟  
+2. **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub_Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers) 🌟  
    Node.js library providing high-level control over Chrome/Chromium, powering self-hosted browser sandboxes, automated crawl isolation, and disposable scraping nodes.
 
-3. **[Zen Browser](https://github.com/zen-browser/desktop)** [![GitHub stars](https://img.shields.io/github/stars/zen-browser/desktop?style=social&color=white)](https://github.com/zen-browser/desktop/stargazers) 🌟  
+3. **[Zen Browser](https://github.com/zen-browser/desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/zen-browser/desktop?style=social&color=white)](https://github.com/zen-browser/desktop/stargazers) 🌟  
    Privacy-focused, high-security modern browser built on Firefox with workspace isolation, compartmentalized tab containers, strict script blocking, and zero telemetry.
 
-4. **[Ungoogled Chromium](https://github.com/eloston/ungoogled-chromium)** [![GitHub stars](https://img.shields.io/github/stars/eloston/ungoogled-chromium?style=social&color=white)](https://github.com/eloston/ungoogled-chromium/stargazers) 🌟  
+4. **[Ungoogled Chromium](https://github.com/eloston/ungoogled-chromium)** [![GitHub_Stars](https://img.shields.io/github/stars/eloston/ungoogled-chromium?style=social&color=white)](https://github.com/eloston/ungoogled-chromium/stargazers) 🌟  
    Hardened Google Chromium fork stripping out Google background integrations, telemetry, and pre-fetching mechanisms, with enhanced security and privacy flags.
 
-5. **[Brave Browser](https://github.com/brave/brave-browser)** [![GitHub stars](https://img.shields.io/github/stars/brave/brave-browser?style=social&color=white)](https://github.com/brave/brave-browser/stargazers) 🌟  
+5. **[Brave Browser](https://github.com/brave/brave-browser)** [![GitHub_Stars](https://img.shields.io/github/stars/brave/brave-browser?style=social&color=white)](https://github.com/brave/brave-browser/stargazers) 🌟  
    Privacy-first open-source browser featuring native ad/tracker shielding, fingerprinting randomization, script blocking, and built-in onion routing (Tor).
 
-6. **[neko (n.eko)](https://github.com/m1k1o/neko)** [![GitHub stars](https://img.shields.io/github/stars/m1k1o/neko?style=social&color=white)](https://github.com/m1k1o/neko/stargazers) 🌟  
+6. **[neko (n.eko)](https://github.com/m1k1o/neko)** [![GitHub_Stars](https://img.shields.io/github/stars/m1k1o/neko?style=social&color=white)](https://github.com/m1k1o/neko/stargazers) 🌟  
    Self-hosted virtual browser that runs inside Docker and streams video/audio in real time via WebRTC — enabling disposable, isolated, and multi-user collaborative browsing.
 
-7. **[Browserless](https://github.com/browserless/browserless)** [![GitHub stars](https://img.shields.io/github/stars/browserless/browserless?style=social&color=white)](https://github.com/browserless/browserless/stargazers) 🌟  
+7. **[Browserless](https://github.com/browserless/browserless)** [![GitHub_Stars](https://img.shields.io/github/stars/browserless/browserless?style=social&color=white)](https://github.com/browserless/browserless/stargazers) 🌟  
    Cloud-native, self-hostable browser infrastructure designed to run headless Chrome instances in isolated Docker environments with REST APIs and connection pooling.
 
-8. **[BrowserBox](https://github.com/BrowserBox/BrowserBox)** [![GitHub stars](https://img.shields.io/github/stars/BrowserBox/BrowserBox?style=social&color=white)](https://github.com/BrowserBox/BrowserBox/stargazers) 🌟  
+8. **[BrowserBox](https://github.com/BrowserBox/BrowserBox)** [![GitHub_Stars](https://img.shields.io/github/stars/BrowserBox/BrowserBox?style=social&color=white)](https://github.com/BrowserBox/BrowserBox/stargazers) 🌟  
    Open-source Remote Browser Isolation (RBI) platform — secure, self-hostable remote browsing with interactive streaming, file disarm, and low-latency rendering.
 
-9. **[Kasm Workspaces Images](https://github.com/kasmtech/workspaces-images)** [![GitHub stars](https://img.shields.io/github/stars/kasmtech/workspaces-images?style=social&color=white)](https://github.com/kasmtech/workspaces-images/stargazers) 🌟  
+9. **[Kasm Workspaces Images](https://github.com/kasmtech/workspaces-images)** [![GitHub_Stars](https://img.shields.io/github/stars/kasmtech/workspaces-images?style=social&color=white)](https://github.com/kasmtech/workspaces-images/stargazers) 🌟  
    Comprehensive suite of open-source Docker container images for containerized browsers (Chrome, Firefox, Tor, Brave) and remote streaming desktops.
 
-10. **[Bromure](https://github.com/rderaison/bromure)** [![GitHub stars](https://img.shields.io/github/stars/rderaison/bromure?style=social&color=white)](https://github.com/rderaison/bromure/stargazers) 🌟  
+10. **[Bromure](https://github.com/rderaison/bromure)** [![GitHub_Stars](https://img.shields.io/github/stars/rderaison/bromure?style=social&color=white)](https://github.com/rderaison/bromure/stargazers) 🌟  
     Open-source local sandboxing framework that executes Chromium inside lightweight, disposable micro-VMs and isolated container sandboxes.
 
 ---
