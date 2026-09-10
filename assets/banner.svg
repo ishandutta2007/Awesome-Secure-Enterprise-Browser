@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a192f" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.45" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      .title { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; fill: #ffffff; }
+      .subtitle { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; fill: #94a3b8; }
+      .badge-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 13px; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.75; transform: scale(1.04); }
+      }
+      @keyframes scan {
+        0% { transform: translateY(0px); opacity: 0; }
+        25% { opacity: 0.85; }
+        75% { opacity: 0.85; }
+        100% { transform: translateY(380px); opacity: 0; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      
+      .pulsing-glow { animation: pulse 4s ease-in-out infinite; transform-origin: 600px 210px; }
+      .scanline { animation: scan 5s linear infinite; }
+      .floating-icon { animation: float 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)" />
+  
+  <!-- Grid Matrix Pattern -->
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="150" y1="0" x2="150" y2="420" />
+    <line x1="300" y1="0" x2="300" y2="420" />
+    <line x1="450" y1="0" x2="450" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="750" y1="0" x2="750" y2="420" />
+    <line x1="900" y1="0" x2="900" y2="420" />
+    <line x1="1050" y1="0" x2="1050" y2="420" />
+  </g>
+
+  <!-- Ambient Glow -->
+  <circle cx="600" cy="180" r="260" fill="#38bdf8" opacity="0.12" filter="url(#glow)" class="pulsing-glow" />
+  <circle cx="220" cy="280" r="140" fill="#818cf8" opacity="0.08" filter="url(#glow)" />
+  <circle cx="980" cy="140" r="160" fill="#c084fc" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Scanning Line -->
+  <line x1="40" y1="20" x2="1160" y2="20" stroke="#38bdf8" stroke-width="2" opacity="0.6" filter="url(#subtle-glow)" class="scanline" />
+
+  <!-- Outer Border Frame -->
+  <rect x="20" y="20" width="1160" height="380" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5" />
+  
+  <!-- Tech Corner Markers -->
+  <path d="M20,55 L20,20 L55,20" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M1180,55 L1180,20 L1145,20" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M20,365 L20,400 L55,400" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M1180,365 L1180,400 L1145,400" fill="none" stroke="#38bdf8" stroke-width="3" />
+
+  <!-- Center Shield Icon -->
+  <g class="floating-icon" transform="translate(560, 48)">
+    <path d="M40 0 L75 14 C75 54 40 78 40 78 C40 78 5 54 5 14 Z" fill="url(#shield-grad)" stroke="#38bdf8" stroke-width="2.5" filter="url(#subtle-glow)" />
+    <path d="M28 38 L37 47 L52 28" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Header & Title -->
+  <g text-anchor="middle">
+    <rect x="440" y="146" width="320" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+    <text x="600" y="165" class="badge-text" fill="#38bdf8" letter-spacing="1.5">&#128737;&#65039; ZERO-TRUST BROWSER SECURITY</text>
+
+    <text x="600" y="222" class="title" font-size="40" letter-spacing="-0.5" filter="url(#subtle-glow)">Awesome Secure Enterprise Browser</text>
+    <text x="600" y="262" class="subtitle" font-size="16" letter-spacing="0.2">Curated Directory of Enterprise Browsers, Remote Isolation (RBI) &amp; Last-Mile Web Defense</text>
+  </g>
+
+  <!-- Feature Badges -->
+  <g transform="translate(170, 310)">
+    <g transform="translate(0, 0)">
+      <rect width="190" height="38" rx="19" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.5" />
+      <text x="95" y="24" text-anchor="middle" class="badge-text" fill="#e2e8f0">&#127760; Enterprise Browsers</text>
+    </g>
+    <g transform="translate(210, 0)">
+      <rect width="200" height="38" rx="19" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1.5" />
+      <text x="100" y="24" text-anchor="middle" class="badge-text" fill="#e2e8f0">&#9729;&#65039; Remote Isolation (RBI)</text>
+    </g>
+    <g transform="translate(430, 0)">
+      <rect width="200" height="38" rx="19" fill="#0f172a" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1.5" />
+      <text x="100" y="24" text-anchor="middle" class="badge-text" fill="#e2e8f0">&#128274; Browser DLP &amp; Control</text>
+    </g>
+    <g transform="translate(650, 0)">
+      <rect width="210" height="38" rx="19" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.5" />
+      <text x="105" y="24" text-anchor="middle" class="badge-text" fill="#e2e8f0">&#9889; Open-Source Sandboxes</text>
+    </g>
+  </g>
+</svg>
