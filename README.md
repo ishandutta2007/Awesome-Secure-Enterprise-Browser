@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,75 +40,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Island](https://www.island.io/)**  
-
-  Leading purpose-built enterprise browser (Chromium-based) with deep containment, DLP, clipboard/screenshot controls, watermarking, and cloud-managed policy for BYOD and managed devices.
-
-
-
-- **[Talon Cyber Security](https://talon-sec.com/)**  
-
-  Enterprise browser platform focused on secure web access, data protection, and last-mile controls within a managed browser experience.
-
-
-
-- **[Menlo Security](https://www.menlosecurity.com/)**  
-
-  Pioneer in remote browser isolation (RBI) and adaptive clientless rendering — isolates web content in the cloud to keep threats off the endpoint.
-
-
-
-- **[LayerX Security](https://layerxsecurity.com/)**  
-
-  Agentless / extension-based browser security platform providing visibility, DLP, extension risk management, and controls for AI/agentic browser usage across existing browsers.
-
-
-
-- **[Seraphic Security](https://seraphicsecurity.com/)**  
-
-  Browser security with in-engine exploit prevention (Moving Target Defense / chaotic defense) and policy enforcement without necessarily replacing the browser.
-
-
-
-- **[Google Chrome Enterprise Premium](https://chromeenterprise.google/)**  
-
-  Google’s enterprise management and security capabilities for Chrome — policies, extensions, reporting, and zero-trust integrations at scale.
-
-
-
-- **[Citrix Secure Browser / related](https://www.citrix.com/)**  
-
-  Secure and isolated browser offerings within the broader Citrix virtualization and secure access portfolio.
-
-
-
-- **[Authentic8 Silo](https://www.authentic8.com/)**  
-
-  Cloud browser / isolation platform that executes web sessions in a secure, disposable cloud environment.
-
-
-
-- **[Ericom Shield](https://www.ericom.com/)**  
-
-  Remote browser isolation and web security platform designed to neutralize web-borne threats.
-
-
-
-- **[Perception Point Browser Security](https://perception-point.io/)**  
-
-  Advanced threat prevention and browser security capabilities focused on stopping sophisticated web attacks.
-
-
-
-- **[Microsoft Edge for Business](https://www.microsoft.com/edge/business)**  
-
-  Enterprise-focused Edge with management, security, and Microsoft 365 / Entra integration for organizational deployments.
-
-
-
-- **[Other enterprise browser & RBI offerings](https://github.com/)**  
-
-  Additional vendors providing managed browsers, isolation, or browser-layer security controls.
+| Platform | Focus / Core Capabilities | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Google Chrome Enterprise Premium](https://chromeenterprise.google/)** | Enterprise policy management, browser-level DLP, URL filtering, context-aware zero-trust access, and threat protection. | **$6.00 / user / month** ($72 / user / year) | **60-day free trial** (up to 5,000 users); **Chrome Enterprise Core** is free forever for centralized policy management. |
+| **[Microsoft Edge for Business](https://www.microsoft.com/edge/business)** | Dual-identity enterprise browsing, automatic personal/work switching, Entra ID integration, Intune MAM policies, and data leakage controls. | **Included with Microsoft 365** (M365 plans start at **$6.00 / user / month**; standalone Edge browser is $0) | **Free forever** with personal Microsoft Account or Entra ID Free; **30-day free trial** for M365 Business/Enterprise plans (up to 25 seats). |
+| **[Prisma Browser (Talon)](https://www.paloaltonetworks.com/prisma/sase/enterprise-browser)** | Managed Chromium enterprise browser with deep data loss prevention, clipboard/screenshot controls, and unmanaged/BYOD endpoint security. | **$10.00 / user / month** (Business edition; Enterprise starting tiers ~$10–$15 / user / mo with 200-seat minimum) | **30-day free trial** (self-serve for Business edition; guided custom PoC for Enterprise). |
+| **[Island](https://www.island.io/)** | Purpose-built Chromium enterprise browser featuring granular DLP, copy/paste and screenshot restrictions, forensic watermarking, and zero-trust policies. | **£150.00 / user / year** (~$16.00 / user / month on G-Cloud 14 / AWS Marketplace; MSP starting tiers ~$25,000 / year) | **30-day proof-of-concept (PoC)** trial upon request (includes full tenant onboarding and security policy setup). |
+| **[Menlo Security](https://www.menlosecurity.com/)** | Cloud-native Remote Browser Isolation (RBI), adaptive clientless rendering, HEAT threat prevention, and secure web gateway. | **$130.00 / user / year** (~$10.83 / user / month on AWS Marketplace for 0–99 user tier) | **30-day evaluation / PoC**; 60-minute instant interactive cloud VM sandbox demo; free HEAT assessment toolkit. |
+| **[LayerX Security](https://layerxsecurity.com/)** | Extension-based browser security providing real-time activity monitoring, generative AI / LLM DLP, and malicious extension governance across standard browsers. | **$8.50 / user / month** (AWS Marketplace annual contract, 50-user minimum) | **14 to 30-day guided proof-of-concept (PoC)** evaluation with threat discovery report upon request. |
+| **[Seraphic Security](https://www.crowdstrike.com/)** | In-engine exploit prevention using moving target defense (MTD), chaotic execution, and data control without replacing native user browsers. | **$60.00 / user / year** (~$5.00 / user / month base starting tier estimate on AWS Marketplace) | **30-day proof-of-concept (PoC)** evaluation; free forever access to **BrowserTotal™** browser risk assessment tool. |
+| **[Authentic8 Silo](https://www.authentic8.com/)** | Cloud-isolated disposable workspace and managed attribution network for secure web access and OSINT digital investigations. | **$1,450.00 / user / year** (~$120.83 / user / month for Local single-region tier; Multi-Region $2,450 / yr) | **30-day free trial** with full access to Silo Workspace, productivity tools, and cloud attribution network. |
+| **[Citrix Secure Private Access](https://www.citrix.com/)** | Zero Trust Network Access (ZTNA) combined with Citrix Enterprise Browser and cloud remote browser isolation (RBI) for corporate apps. | **$3.00 / user / month** (Standalone add-on; bundled Citrix DaaS starting from **$10.00 / user / month**) | **60-day free trial** via Citrix Cloud console (up to 25 user licenses upon approval). |
+| **[Ericom Shield](https://www.ericom.com/)** | Zero-trust Remote Browser Isolation (RBI) and content disarm and reconstruction (CDR) available as cloud service or on-premises deployment. | **$85.00 / user / year** (~$7.08 / user / month base commercial starting tier) | **30-day proof-of-concept (PoC)** evaluation / guided trial upon request. |
+| **[Perception Point Browser Security](https://perception-point.io/)** | Lightweight browser extension delivering real-time anti-phishing, zero-day exploit prevention, and web-borne threat scanning. | **$7.00 / user / month** (Base commercial starting tier) | **30-day proof-of-concept (PoC)** evaluation with live attack simulation. |
+| **[SquareX](https://sqrx.com/)** | Disposable cloud browser isolation, Browser Detection and Response (BDR), and client-side protection against malicious web files and scripts. | **$6.00 / user / month** (Enterprise tier starting price estimate) | **Free forever personal plan** (disposable browser sessions limited to 10 minutes per session); **14-day free trial** for Enterprise. |
+| **[Kasm Workspaces Cloud](https://kasmweb.com/)** | Containerized remote browser isolation, streaming desktop infrastructure, and disposable web browsing environments. | **$10.00 / user / month** (Starter edition, 10-user minimum / $1,200 billed annually) | **Free forever Community Edition** (limited to 5 concurrent sessions, non-commercial use); **30-day free trial** for Enterprise. |
 
 
 
